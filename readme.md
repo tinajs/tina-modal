@@ -25,7 +25,7 @@ Component.mixin(modal())
 ```javascript
 // pages/some-page.js
 import { Page } from '@tinajs/tina'
-Page({
+Page.define({
   methods: {
     onSubmit () {
       this.$confirm({ content: 'Submit?' })
