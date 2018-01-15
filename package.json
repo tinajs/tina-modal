@@ -1,10 +1,21 @@
 {
   "name": "@tinajs/tina-modal",
   "version": "0.1.0",
-  "description": "",
+  "description": "Modal plugin for Tina.js",
   "main": "dist/tina-modal.js",
   "author": "yelo",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "tinajs/tina-modal",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinajs/tina-modal/issues"
+  },
+  "homepage": "https://github.com/tinajs/tina-modal#readme",
   "scripts": {
     "start": "rollup -c -w",
     "clean": "rimraf ./dist",

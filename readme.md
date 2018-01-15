@@ -1,5 +1,5 @@
 # tina-modal
-> :speech_balloon: Modal plugin for [Tina](https://github.com/tinajs/tina)
+> :speech_balloon: Modal plugin for [Tina.js](https://github.com/tinajs/tina)
 
 ## Setup
 1. Install from npm
