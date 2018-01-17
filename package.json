@@ -5,6 +5,9 @@
   "main": "dist/tina-modal.js",
   "author": "yelo",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
