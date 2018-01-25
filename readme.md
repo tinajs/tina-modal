@@ -6,23 +6,22 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Setup
-1. Install from npm
+1. Download package from npm
 ```bash
 # ensure wxio is installed
 npm i -save wxio
 
-# install
+# install tina-modal
 npm i --save @tinajs/tina-modal
 ```
 
-2. Mix into Page & Component
+2. Install into Tina
 ```javascript
 // app.js
-import { Page, Component } from '@tinajs/tina'
+import Tina from '@tinajs/tina'
 import modal from '@tinajs/tina-modal'
 
-Page.mixin(modal())
-Component.mixin(modal())
+Tina.use(modal)
 ```
 
 ## Usage
