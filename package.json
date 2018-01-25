@@ -1,6 +1,6 @@
 {
   "name": "@tinajs/tina-modal",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Modal plugin for Tina.js",
   "main": "dist/tina-modal.js",
   "author": "yelo",
