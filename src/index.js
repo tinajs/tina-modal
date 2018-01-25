@@ -12,7 +12,7 @@ export class CancelError extends Error {
   }
 }
 
-export default function mixin (setting = {}) {
+export function mixin (setting = {}) {
   setting = {
     ...DEFAULT_SETTING,
     ...setting,
@@ -37,3 +37,13 @@ export default function mixin (setting = {}) {
     created: setup,
   }
 }
+
+const Plugin = {
+  install ({ Page, Component }, setting) {
+    const modal = mixin(setting)
+    Page.mixin(modal)
+    Component.mixin(modal)
+  },
+}
+
+export default Plugin
